@@ -1,5 +1,8 @@
 // Only change code below this line
 function sumFibonacci(num) {
+    if (num === 1) {
+        return 1;
+    }
     var prevNumber = 0;
     var currNumber = 1;
     var result = 0;
